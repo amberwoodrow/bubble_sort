@@ -1,7 +1,7 @@
-var bubbleSort = require("../bubbleSort"),
-    arr;
+var bubbleSort = require("../bubbleSort");
+console.log(bubbleSort);
 
-describe("#bubbleSort", function(){
+describe("bubbleSort", function(){
 
   it("sorts an array of positive numbers", function(){
     expect(bubbleSort([3.1,4.5,1,2,5])).toEqual([1,2,3.1,4.5,5]);
